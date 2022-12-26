@@ -1,6 +1,6 @@
 # deno-centos7
 
-Docker Image to build Deno to run on CentOS7
+Docker Image to build Deno which can run on CentOS7
 
 ## Build Docker Image
 
