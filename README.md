@@ -12,6 +12,7 @@ docker build -t deno-centos7 .
 
 ```
 docker run --name tmp -it deno-centos7 /root/.cargo/bin/cargo install deno --locked
+docker start tmp
+docker cp tmp:/root/.cargo/bin/deno .
+docker stop tmp
 ```
-
-Deno binary will be in `/root/.cargo/bin/`.
